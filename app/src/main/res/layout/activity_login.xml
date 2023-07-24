@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:constraint_referenced_tags="8dp"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="32dp"
+
+        android:paddingEnd="32dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login now"
+            android:textColor="#000000"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Please login to continue using app"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFEDF0FA"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="5dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#FFEDF0FA"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="5dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button2"
+
+            android:layout_width="344dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="25dp"
+
+            android:backgroundTint="#6C63FF"
+            android:text="Login"
+            android:textSize="17sp"
+            app:cornerRadius="8dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Don't have an account? Sign up"
+            android:textAlignment="center"
+            android:textColor="#3366CC" />
+    </LinearLayout>
+
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/lottieAnimationView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        app:lottie_rawRes="@raw/background" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

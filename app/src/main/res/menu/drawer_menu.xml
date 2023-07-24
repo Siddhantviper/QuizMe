@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<group>
+
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/round_person_24"/>
+    <item android:title="Rate Us"
+        android:id="@+id/rateUs"
+        android:icon="@drawable/baseline_star_rate_24"/>
+
+
+    <item android:title="Redeem"
+        android:id="@+id/redeem"
+        android:icon="@drawable/baseline_redeem_24"/>
+    <item android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"/>
+
+</group>
+
+
+</menu>

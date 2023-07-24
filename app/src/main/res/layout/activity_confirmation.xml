@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/profile_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="350dp"
+            android:layout_height="290dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/confirmation" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:text="Your total Points :"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/finalPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:text="1000 Points"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/backToShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="#009E06"
+        android:text="Back to shop"
+        android:textColor="@color/colorPrimaryButton" />
+
+
+</LinearLayout>
